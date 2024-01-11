@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const MoveAwayButton = () => {
   const moveDistance = 250; // Distance to move the button in pixels

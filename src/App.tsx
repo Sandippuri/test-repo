@@ -1,5 +1,3 @@
-import React from "react";
-// import Collapsable from "./components/collapsable";
 import DateMe from "./components/movebutton/DateMe";
 
 function App() {
