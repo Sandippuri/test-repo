@@ -1,14 +1,15 @@
 import { SigningCosmWasmClient } from "@cosmjs/cosmwasm-stargate";
 import { useQuery } from "./useQuery";
 import { DirectSecp256k1HdWallet, EncodeObject } from "@cosmjs/proto-signing";
-import React from "react";
-import BigNumber from "bignumber.js";
+// import React from "react";
+// import BigNumber from "bignumber.js";
 export const CosmWasm = () => {
   // const [response, setResponse] = React.useState<unknown>();
   const contractAddress =
     "archway19wkj0j2k77jy9r5z3eapk8y4es77dmq8qydlsqa9kyqa0y64ykqq7j6dmq";
 
   const to = "archway17ccs4gzhd64kj62pk6s4cnlem47ztls6mldgzv";
+  console.log("to", to);
   const executeData = async () => {
     const wallet = await DirectSecp256k1HdWallet.fromMnemonic(
       "crisp slam imitate wild install chaos damp nest olympic luxury fluid exile",

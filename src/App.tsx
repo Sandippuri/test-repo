@@ -1,8 +1,8 @@
+// // import CosmWasm from "./components/cosmwasm";
 // import CosmWasm from "./components/cosmwasm";
-import CosmWasm from "./components/cosmwasm";
-import ObjectGroupby from "./components/learn/ObjectGroupby";
-import Sorting from "./dsa/sorting";
-import SortingVisualizer from "./dsa/sorting/sort";
+// import ObjectGroupby from "./components/learn/ObjectGroupby";
+// import Sorting from "./dsa/sorting";
+// import SortingVisualizer from "./dsa/sorting/sort";
 import Valentine from "./willyoube/Valentine";
 
 
