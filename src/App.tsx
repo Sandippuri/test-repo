@@ -3,8 +3,8 @@
 // import ObjectGroupby from "./components/learn/ObjectGroupby";
 // import Sorting from "./dsa/sorting";
 // import SortingVisualizer from "./dsa/sorting/sort";
-import Valentine from "./willyoube/Valentine";
-// import Valentine2 from "./willyoube/valentine2";
+// import Valentine from "./willyoube/Valentine";
+import Valentine2 from "./willyoube/valentine2";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       {/* <DateMe/> */}
       {/* <CosmWasm/> */}
       {/* <ObjectGroupby/> */}
-      <Valentine/>
+      <Valentine2/>
       {/* <Sorting/> */}
       {/* <SortingVisualizer/> */}
      {/* <MoveAwayButton/> */}
