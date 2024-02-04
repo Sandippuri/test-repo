@@ -5,8 +5,8 @@ const MoveAwayButton = () => {
   const [position, setPosition] = useState({ top: 500, left: 760 });
 
   const calculateNewPosition = (top: number, left: number) => {
-    const viewportWidth = window.innerWidth > 1200 ? 900 : window.innerWidth;
-    const viewportHeight = window.innerHeight > 1000 ? 900 : window.innerHeight;
+    const viewportWidth = window.innerWidth > 1200 ? window.innerWidth-300 : window.innerWidth;
+    const viewportHeight = window.innerHeight > 1000 ? window.innerHeight-300 : window.innerHeight;
     const newTop = Math.max(
       0,
       Math.min(
@@ -21,7 +21,7 @@ const MoveAwayButton = () => {
         left + (Math.random() > 0.5 ? moveDistance : -moveDistance)
       )
     );
-    if (newTop > 900 || newLeft > 1200) {
+    if (newTop > window.innerWidth-300 || newLeft > window.innerHeight-300) {
       calculateNewPosition(newTop, newLeft);
     }
 
